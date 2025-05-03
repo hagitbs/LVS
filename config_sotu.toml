@@ -1,0 +1,13 @@
+[data]
+file_path = data/sotu/0.csv
+file_path2 = None
+dataset = sotu
+[proc]
+agg_column= document
+var_name= element
+value_name= frequency_in_document
+processing_type = freq
+[output]
+output_path = data/sotu/lvs.csv
+output_dic = data/sotu/dic.csv 
+sig_file = data/sotu/signatures.csv
