@@ -8,6 +8,7 @@ This repository contains the code for the LVS project.
 For example : 
 
 |Entity|Code|Year|Meningitis|Alzheimer|Parkinson|Malaria|HIV/AIDS|
+|---|---|---|---|---|---|---|---| 
 |Afghanistan|AFG|2007|2933|1402|450|2488|393| 
 |Afghanistan|AFG|2008|2731|1424|455|2277|255|
 
