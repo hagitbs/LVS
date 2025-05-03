@@ -36,22 +36,19 @@ This section contains the configuration for the database. The following keys are
 * `file_path`: The input file of the dataset in csv format  [ ex - data/cod/annual-number-of-deaths-by-cause.csv]
 * `file_path2`: Optional : Additional input file with summary information [ None , or filename  ex - data/cod/population.csv]
 * `dataset`: The dataset name [ex - cod] 
-
-[data]
+ 
 file_path = data/cod/annual-number-of-deaths-by-cause.csv
 file_path2 = data/cod/population.csv
 dataset = cod 
 
-[proc]
-### `[server]`
-
+### `[proc]` 
 This processing instructions
 * `processing_type`: [full/freq] - should we calculate frequencies only [freq], or also unpivot the dataset [full]
 * `agg_column`: Year 
 * `var_name`= Cause
 * `value_name`= Deaths  
 
-[output]
+### `[output]`
 * `output_path` = data/cod/lvs.csv
 * `output_dic` = data/cod/dic.csv 
 * `sig_file` = data/cod/signatures.csv
