@@ -25,8 +25,8 @@ dataset = cod
 This processing instructions
 * `processing_type`: [full/freq] - should we calculate frequencies only [freq], or also unpivot the dataset [full]
 * `agg_column`: Year 
-* `avar_name`= Cause
-* `avalue_name`= Deaths  
+* `var_name`= Cause
+* `value_name`= Deaths  
 
 [output]
 * `output_path` = data/cod/lvs.csv
