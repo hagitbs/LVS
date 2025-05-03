@@ -62,3 +62,16 @@ This processing instructions
 
 
 Running full processing : lvs_data_processing.ipynb
+
+| Parameter | Description |
+|---|---|
+| `file_path` | Path to the main CSV data file. |
+| `file_path2` | Path to an optional secondary CSV file with summary information. |
+| `dataset` | Name of the dataset. |
+| `processing_type` | Specifies the type of processing: `full` for unpivoting and frequency calculation, or `freq` for frequency calculation only. |
+| `agg_column` | Column used for aggregation (e.g., "Year"). |
+| `var_name` | Name of the variable column (e.g., "Cause"). |
+| `value_name` | Name of the value column (e.g., "Deaths"). |
+| `output_path` | Path to the output CSV file containing processed data. |
+| `output_dic` | Path to the output CSV file containing a dictionary or mapping. |
+| `sig_file` | Path to the output CSV file for storing signatures. |
