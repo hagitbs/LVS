@@ -11,3 +11,5 @@ processing_type = full
 output_path = data/cod/lvs.csv
 output_dic = data/cod/dic.csv 
 sig_file = data/cod/signatures.csv
+graph = True
+top = 17
