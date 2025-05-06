@@ -13,3 +13,4 @@ output_dic = data/cod/dic.csv
 sig_file = data/cod/signatures.csv
 graph = True
 top = 17
+sig_length = 20

@@ -13,3 +13,4 @@ output_dic = data/sotu/dic.csv
 sig_file = data/sotu/signatures.csv
 graph = False
 top = 25
+sig_length = 200
