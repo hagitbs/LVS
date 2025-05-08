@@ -52,6 +52,13 @@ This processing instructions
 * `output_path` = data/cod/lvs.csv
 * `output_dic` = data/cod/dic.csv 
 * `sig_file` = data/cod/signatures.csv
+* `graph` = [True/False] should we generate a graphs ? 
+* `top` =  N top most dynamic features
+* `sig_length` = length of signature (How many elements values in each signature)
+
+### `constants` 
+* `ignore_columns` = ['Entity','Code']
+* `columns_to_keep` = ['document', 'element', 'frequency_in_document'] 
 
 
 Running full processing : lvs_data_processing.ipynb
@@ -68,3 +75,6 @@ Running full processing : lvs_data_processing.ipynb
 | `output_path` | Path to the output CSV file containing processed data. |
 | `output_dic` | Path to the output CSV file containing a dictionary or mapping. |
 | `sig_file` | Path to the output CSV file for storing signatures. |
+| `graph` | should we generate a graphs ?  |
+| `top` | N top most dynamic features. |
+| `sig_length` | length of signature (How many elements values in each signature) |
